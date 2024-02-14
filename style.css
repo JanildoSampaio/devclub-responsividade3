@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.logo-pet {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+header{
+    margin: 44px, 0, 144px, 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin: 23px; 
+
+}
+
+.button-header {
+    height: 41px;
+    width: 130px;
+    background-color: #665AE1;
+    border-radius: 20px;    
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer; 
+    margin-top: 38px;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    margin-top: 217px;
+}
+
+.sub-text {
+    color: #515151;
+    line-height: 71px;
+    font-size: 58px;
+    font-weight: 500;
+}
+
+p {
+    width: 515px;    
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #515151;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    
+
+}
+
+.button-main {
+    background: #adff00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px); rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000; 
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+
+@media screen and (max-width: 900px) {
+
+header {
+    display: none;
+}
+
+.logo-pet {
+    display: block;
+    width: 100vw;
+    height: 50vh;
+    margin-left: 1px;
+    text-align: center;
+    margin-top: 100px;    
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    color: #515151;
+    margin-top: 24px;
+}
+
+.sub-text {
+    color: #515151;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.button-main {
+    background: #adff00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px); rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+p {
+    display: none;
+}
+
+}
